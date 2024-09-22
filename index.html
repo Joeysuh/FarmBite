@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FarmBite - Fresh, Local Meals Delivered to You</title>
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
 
     <header>
@@ -44,8 +46,23 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 FarmBite | Fresh, Local, and Honest Meals Delivered</p>
+        <p>&copy; 2024 <span>FarmBite</span> | Fresh, Local, and Honest Meals Delivered</p>
     </footer>
 
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        });
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+
 </body>
+
 </html>
