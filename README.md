@@ -1,0 +1,2 @@
+FarmBite aims to deliver affordable and honest meals to your home! With the constant rise and fear of inflation in today's world, being able to eat a healthy and hearty meal should be a right, not a worry. 
+With FarmBite, we vow to connect you with the best local farmers in your area, where you can skip the middleman grocery store and fresh produce and ingredients directly to your door without hassle!
